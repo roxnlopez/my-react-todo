@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #99907D;
+  font-family: 'Pacifico', cursive;
+}
+
+header, .todos {
+  text-align: center;
+  color: #002A32;
+  font-family: 'Pacifico', cursive;
+}
+
+a {
+  color: #F40076;
+  font-size: 2em;
+}
+
+.todosContainer {
+  width: 60%;
+  margin: auto;
+}
+
+h2 {
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+}
+
+.incomplete h2{
+  border-bottom: 3px solid yellow;
+}
+
+h1, h2{
+  font-family: 'Pacifico', cursive; 
+}
+
+p {
+
+  font-size: 2em;
+}
+
+.todoForm {
+  clear:both;
+  text-align: center;
+}
+
+span.deleteButton, span.toggleButton {
+  padding-left: 1em;
+}
+
+.deleteButton{
+  color: red;
+}
+
+.createForm {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin: auto;
+  width: 58%;
+}
